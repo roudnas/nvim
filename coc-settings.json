@@ -3,7 +3,34 @@
     "css",
     "markdown",
     "javascript",
-    "php"
+    "php",
+    "html",
+    "html.mustache",
+    "c"
   ],
-  "clangd.path": "/home/roudnas/.config/coc/extensions/coc-clangd-data/install/11.0.0/clangd_11.0.0/bin/clangd"
+  "coc.preferences.extensionUpdateCheck": "daily",
+  "html.format.wrapAttributes": "force-expand-multiline",
+  "languageserver": {
+        "ccls": {
+            "command": "ccls",
+            "filetypes": [
+                "c",
+                "cpp",
+                "objc",
+                "objcpp"
+            ],
+            "rootPatterns": [
+                ".ccls",
+                "compile_commands.json",
+                ".vim/",
+                ".git/",
+                ".hg/"
+            ],
+            "initializationOptions": {
+                "cache": {
+                    "directory": "/tmp/ccls"
+                }
+            }
+        }
+    }
 }

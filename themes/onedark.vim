@@ -14,7 +14,7 @@ if (has("autocmd") && !has("gui_running"))
 									let g:onedark_termcolors=256
 
 									syntax on
-									colorscheme onedark
+									colorscheme onedark 
 
 
 									" checks if your terminal has 24-bit color support
