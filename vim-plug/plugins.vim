@@ -22,4 +22,6 @@ endif
                    Plug 'honza/vim-snippets'
                    Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install()  }, 'for': ['markdown', 'vim-plug'] }
                    Plug 'mhinz/vim-startify'
+                   Plug 'tyru/open-browser.vim'
+                   Plug 'weirongxu/plantuml-previewer.vim'
                    call plug#end()

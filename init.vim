@@ -10,3 +10,5 @@ source $HOME/.config/nvim/plug-config/coc.vim
 source $HOME/.config/nvim/plug-config/markd.vim
 source $HOME/.config/nvim/themes/airline.vim
 source $HOME/.config/nvim/keys/mappings.vim
+
+hi Normal guibg=NONE ctermbg=NONE
